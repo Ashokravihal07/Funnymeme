@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Are You Indu Piyya?</title>
+    <title>Are You Deepa?</title>
     <style>
         body {
             font-family: 'Helvetica Neue', Arial, sans-serif;
@@ -88,9 +88,9 @@
 </head>
 <body>
     <div id="main-content">
-        <h1>Are You Indu Piyya?</h1>
+        <h1>Are You Deepa?</h1>
         <div class="buttons">
-            <button class="btn-yes" onclick="showInduPiyyaMessage()">Yes</button>
+            <button class="btn-yes" onclick="showDeepaMessage()">Yes</button>
             <button class="btn-no" onclick="showOtherMessage()">No</button>
         </div>
     </div>
@@ -100,7 +100,7 @@
     </div>
 
     <script>
-        function showInduPiyyaMessage() {
+        function showDeepaMessage() {
             document.getElementById('main-content').style.display = 'none';
             document.getElementById('response').style.display = 'block';
             document.getElementById('response-message').innerHTML = 'I knew it! You\'re as useless as ever! 😉';
@@ -109,7 +109,7 @@
         function showOtherMessage() {
             document.getElementById('main-content').style.display = 'none';
             document.getElementById('response').style.display = 'block';
-            document.getElementById('response-message').innerHTML = 'Nice try! But you must be Indu Piyya! I\'ve never seen anyone more useless! 😂';
+            document.getElementById('response-message').innerHTML = 'Nice try! But you must be Deepa! I\'ve never seen anyone more useless! 😂';
         }
 
         function goBack() {
